@@ -30,7 +30,6 @@ export class TodoService {
   ];
  
   getAllTodos(): TodoDto[] {
-    console.log(1)
     return this.todos
   }
 
